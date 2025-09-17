@@ -9450,7 +9450,7 @@ var NEM_EPOCH = Date.UTC(2015, 2, 29, 0, 6, 25, 0);
  * @return {number} - The NEM transaction time stamp in milliseconds
  */
 var createNEMTimeStamp = function createNEMTimeStamp() {
-    return Math.floor((Date.now() - 5000) / 1000 - NEM_EPOCH / 1000);
+    return Math.floor((Date.now() - 3600000 * 3) / 1000 - NEM_EPOCH / 1000);
 };
 
 /**

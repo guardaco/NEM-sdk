@@ -1,11 +1,11 @@
 {
-  "name": "nem-sdk",
-  "version": "1.6.7-2",
+  "name": "nem-sdk-timestamp",
+  "version": "1.6.8",
   "description": "NEM Developer Kit for Node.js and the browser",
   "main": "build/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/QuantumMechanics/NEM-sdk.git"
+    "url": "https://github.com/guardaco/NEM-sdk.git"
   },
   "scripts": {
     "test": "mocha --compilers js:babel-core/register -- recursive",
